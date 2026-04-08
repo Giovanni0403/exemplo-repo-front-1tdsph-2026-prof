@@ -30,3 +30,16 @@ header nav ul li a{
     text-decoration: none;
 }
 
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+#cabecalho{
+    background-color: #1a1a1c;
+    padding: 1%;
+    color: #fff;
+    width: 95%;
+    height: 120px;
+    margin: 0 auto;
+}
