@@ -8,7 +8,8 @@
 }
 /* Reset básico */
 
-:root{  
+:root{
+  
     --bg-dark : #1a1b1c; /* Cor padrão de fundo */
     --bg-dark-med : #45494d; /* Cor base de sombreamento */
     --primary:#424632; /* Cor primária */
@@ -19,15 +20,25 @@
 
     --titulo-main: 4rem; /* Base de tamanho para títulos principais */
     --sub-titulo: 3rem; /* Base de tamanho para sub-títulos principais */
-
 }
 
 
 html{
-    /* font-size: 100%;  16px */
     font-size: 62.5%; /* 10px */
 }
 
 body{
     font-size: 2rem;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
 }
