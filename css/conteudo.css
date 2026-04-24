@@ -1,0 +1,6 @@
+
+
+.conteudo__container{
+    display: grid;
+    grip-template-colunas: 10% 10rem 40vw
+}
